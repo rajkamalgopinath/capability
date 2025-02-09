@@ -1486,4 +1486,4 @@ def show_filter_dialog(n_clicks):
 
 # Run the app
 if __name__ == "__main__":
-    app.run_server(debug=False)
+    app.run_server(debug=False, port=8000)
