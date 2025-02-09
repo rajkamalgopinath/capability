@@ -1485,4 +1485,4 @@ def show_filter_dialog(n_clicks):
     return False
 
 # Run the app
-app.run_server(debug=False)
+app.run_server(debug=False, port=8000)
